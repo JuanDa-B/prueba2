@@ -5,7 +5,7 @@ package com.jdbp.matrices;
  * @author Juan David Beltran Piza
  * Tema: Operaciones con matrices
  */
-import java.util.Scanner;
+import java.util.Scanner
 
 public class Matrices {
     private int[][] matriz;
@@ -24,7 +24,7 @@ public class Matrices {
         do {
             System.out.println("1. Declarar matriz");
             System.out.println("2. Definir datos de la matriz");
-            System.out.println("3. Leer y escribir los datos de la matriz");
+            System.out.println("3. Leer y escribir los datos de la matriz")
             System.out.println("4. Recorrer la matriz por filas");
             System.out.println("5. Recorrer la matriz por columnas");
             System.out.println("6. Buscar un dato determinado");
@@ -75,7 +75,7 @@ public class Matrices {
         filas = sc.nextInt();
         System.out.print("Ingrese el número de columnas: ");
         columnas = sc.nextInt();
-        matriz = new int[filas][columnas];
+        matriz = new int[filas][columna];
     }
 
     public void definirDatos(Scanner sc) {
